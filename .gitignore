@@ -1,0 +1,62 @@
+# --------------------------------------
+# 📦 FLUTTER / DART
+# --------------------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+**/build/
+**/ios/Flutter/.last_build_id
+**/doc/api/
+
+# --------------------------------------
+# 🛠 IDEs
+# --------------------------------------
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# --------------------------------------
+# 🔒 ENVIRONMENT / SECRETS
+# --------------------------------------
+.env
+
+# --------------------------------------
+# 📁 SYSTEM / MISC
+# --------------------------------------
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# --------------------------------------
+# 🤖 ANDROID BUILD ARTIFACTS
+# --------------------------------------
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# --------------------------------------
+# 🧪 SYMBOL / OBFUSCATION
+# --------------------------------------
+app.*.symbols
+app.*.map.json
+
+# --------------------------------------
+# 🔥 FIREBASE CONFIGS (Optional)
+# --------------------------------------
+firebase.json
+.firebaserc

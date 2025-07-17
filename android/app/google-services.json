@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1020446016092",
+    "project_id": "rapidaid-2b03e",
+    "storage_bucket": "rapidaid-2b03e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020446016092:android:99b6ec007fb67344711c99",
+        "android_client_info": {
+          "package_name": "com.example.rapid_aid_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOQaT1DzgyYCQ0k5_WRHaBnnMMO-3R9vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

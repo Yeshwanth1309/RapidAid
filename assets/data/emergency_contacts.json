@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Delhi Police - Connaught Place",
+      "phone": "+911234567890",
+      "serviceType": "police"
+    },
+    {
+      "name": "Delhi Police - Hauz Khas",
+      "phone": "+911234567891",
+      "serviceType": "police"
+    },
+    {
+      "name": "Delhi Fire Service - Nehru Place",
+      "phone": "+911234567892",
+      "serviceType": "fire"
+    },
+    {
+      "name": "AIIMS Emergency Ward",
+      "phone": "+911234567893",
+      "serviceType": "hospital"
+    },
+    {
+      "name": "Delhi Ambulance Service",
+      "phone": "+911234567894",
+      "serviceType": "ambulance"
+    }
+  ]
