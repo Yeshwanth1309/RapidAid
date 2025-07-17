@@ -10,6 +10,7 @@ class TwilioService {
   static Future<void> initializeTwilio() async {
     final String accountSid = dotenv.env['TWILIO_ACCOUNT_SID'] ?? '';
     final String authToken = dotenv.env['TWILIO_AUTH_TOKEN'] ?? ''; // Replace with your Twilio Auth Token
+    final twilioNumber = dotenv.env['TWILIO_PHONE_NUMBER'] ?? '';
     twilio = TwilioFlutter(
       accountSid: accountSid,
       authToken: authToken,
