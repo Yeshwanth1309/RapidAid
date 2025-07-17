@@ -1,16 +1,42 @@
-# rapid_aid_app
+# 🚑 RapidAid
 
-A new Flutter project.
+**RapidAid** is a Flutter-based emergency support application that enables users to quickly connect with emergency services, share live locations, and notify trusted contacts during critical situations. The app integrates Firebase for authentication and cloud services, and Twilio for SMS alerts.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 Secure user authentication (Firebase Auth)
+- 📍 Real-time location tracking
+- 📞 Emergency contact management
+- ✉️ SMS alerts using Twilio
+- 🌙 Light/Dark Theme toggle
+- 🎯 First-time user onboarding
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+- **Flutter** (Frontend UI)
+- **Firebase** (Auth, Firestore, Realtime DB, etc.)
+- **Twilio** (SMS API)
+- **GetX** (State Management)
+- **flutter_dotenv** (Environment variable management)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Flutter SDK (>= 3.0.0)
+- Firebase project with necessary services enabled
+- Twilio account with valid credentials
+
+### Setup Instructions
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/Yeshwanth1309/RapidAid.git
+   cd RapidAid
