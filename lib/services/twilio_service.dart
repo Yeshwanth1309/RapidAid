@@ -2,19 +2,20 @@ import 'package:twilio_flutter/twilio_flutter.dart';
 import '../models/contact.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-
 class TwilioService {
   static bool isTwilioEnabled = false; // Set to true to enable Twilio
   static late TwilioFlutter twilio;
 
   static Future<void> initializeTwilio() async {
     final String accountSid = dotenv.env['TWILIO_ACCOUNT_SID'] ?? '';
-    final String authToken = dotenv.env['TWILIO_AUTH_TOKEN'] ?? ''; // Replace with your Twilio Auth Token
+    final String authToken = dotenv.env['TWILIO_AUTH_TOKEN'] ??
+        ''; // Replace with your Twilio Auth Token
     final twilioNumber = dotenv.env['TWILIO_PHONE_NUMBER'] ?? '';
     twilio = TwilioFlutter(
       accountSid: accountSid,
       authToken: authToken,
-      twilioNumber: '+12675926341', // Replace with your Twilio phone number, e.g., "+1234567890"
+      twilioNumber:
+          twilioNumber, // Replace with your Twilio phone number, e.g., "+1234567890"
     );
   }
 
